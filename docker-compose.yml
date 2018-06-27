@@ -1,0 +1,13 @@
+version: '2'
+services:
+  rhino:
+    container_name: ${APP_NAME}
+    build: .
+    ports:
+      - '${PORT}:3000'
+    volumes:
+      - .:/usr/src/app
+      - '/usr/src/app/node_modules'
+    environment:
+      - NODE_ENV=development
+      - CHOKIDAR_USEPOLLING=true
