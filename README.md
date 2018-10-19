@@ -1,5 +1,7 @@
 # Rhino
 
+[![GuardRails badge](https://badges.production.guardrails.io/gitsignore/rhino.svg)](https://www.guardrails.io)
+
 ## Available Scripts
 
 In the project directory, you can run:
